@@ -185,6 +185,8 @@ def draw(c):
     c.vline(560, py + 46, 52, INK, 5)
     c.rect(640, py + 78, 90, 18, INK)
     c.text(40, py + 130, "BENGHAZI HARBOUR, LIBYA", 1, WHITE)
+    # caption under the photo, filling the gap above the row-2 rule
+    c.text(40, py + 168, "KYIV SAYS THE STRIKE SANK THE VESSEL OFF BENGHAZI", 1, GREY)
 
     # Row 2: two columns
     y = 486
